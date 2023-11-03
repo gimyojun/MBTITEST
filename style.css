@@ -21,3 +21,13 @@ article{
     margin: 0 auto;
 }
 
+.banner{
+    display: flex; /* a태그 안쪽에 이미지를 정렬  */
+    justify-content: center; /* a태그의 자식들의 정렬을 정할수있다 a의 자식은 이미지 태그임  */
+    width: 300px;
+    margin: 0 auto;/* a태그 가운데 정렬 */
+}
+
+.banner-img{
+    width: 300px;
+}
